@@ -2,7 +2,7 @@
 **License** : GNU General Public License
 
 Le but de ce projet est de créer un serveur de simulation de gestion de centres, patients et doses de vaccin en PHP.
-Les bases de données utilisées sont disponibles sur ce dépôt [ici](https://github.com/koeltv/projet_covid/blob/master/covid_create.sql) et [ici](https://github.com/koeltv/projet_covid/blob/master/covid_insert.sql).  
+Les bases de données utilisées sont disponibles sur ce dépôt [ici](https://github.com/koeltv/projet_covid/blob/master/covid_create.sql) et [ici](https://github.com/koeltv/projet_covid/blob/master/covid_insert.sql).
 Le serveur est hébergé [ici](http://dev-isi.utt.fr/~koeltgev/projet_covid). Attention l'accès n'est possible que par le VPN de l'UTT.
 
 ## Fonctionnalités
