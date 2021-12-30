@@ -1,0 +1,72 @@
+
+<!-- début fragmentMenu -->
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="router.php?action=accueil">KOELTGEN Valentin</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+           aria-haspopup="true" aria-expanded="false">Gestion des vaccins<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="router.php?action=vaccinReadAll">Liste des vaccins</a></li>
+          <li><a href="router.php?action=vaccinCreate">Ajout d'un vaccin</a></li>
+          <li><a href="router.php?action=vaccinUpdate">Mise à jour d'un vaccin</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+           aria-haspopup="true" aria-expanded="false">Gestion des centres<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="router.php?action=centreReadAll">Liste des centres</a></li>
+          <li><a href="router.php?action=centreCreate">Ajout d'un centre</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+           aria-haspopup="true" aria-expanded="false">Gestion des patients<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="router.php?action=patientReadAll">Liste des patients</a></li>
+          <li><a href="router.php?action=patientCreate">Ajout d'un patient</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+           aria-haspopup="true" aria-expanded="false">Gestion des stocks<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="router.php?action=stockReadAll">Liste des stocks avec le nombre de doses de chaque vaccin</a></li>
+          <li><a href="router.php?action=stockReadGlobal">Nombre global de doses des centres</a></li>
+          <li><a href="router.php?action=stockUpdate">Attribution de vaccins pour un centre</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+           aria-haspopup="true" aria-expanded="false">Gestion des rendez-vous<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="router.php?action=rdvGetPatient">Dossier de vaccination d'un patient</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+           aria-haspopup="true" aria-expanded="false">Mes innovations<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="router.php?action=rdvVaccinUsagePerCentre">Liste de vaccins utilisés par centre</a></li>
+          <li><a href="router.php?action=rdvVaccinatedPerCentre">Liste de patients vaccinés par vaccin par centre</a></li>
+          <li><a href="router.php?action=rdvToVaccinatePerVaccinPerCentre">Liste de patients en cours de vaccination par vaccin par centre</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+           aria-haspopup="true" aria-expanded="false">Documentation<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="router.php?action=documentation&target=1">Documentation de l'innovation 1</a></li>
+          <li><a href="router.php?action=documentation&target=2">Documentation de l'innovation 2</a></li>
+          <li><a href="router.php?action=documentation&target=3">Documentation de l'innovation 3</a></li>
+          <li><a href="router.php?action=documentation&target=0">Mon point de vue global sur ce sujet</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!-- fin fragmentMenu -->
